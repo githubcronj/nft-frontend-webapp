@@ -1,0 +1,82 @@
+.startnowbtn {
+  text-align: center;
+  width: 100% !important;
+  margin-top: 20px !important;
+  border-radius: 25px !important;
+  background-color: #3772ff !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-transform: none !important;
+}
+.mybtn {
+  width: 100% !important;
+  border-radius: 25px !important;
+  margin-top: 20px !important;
+  font-weight: bold !important;
+  background-color: rgb(192, 189, 189) !important;
+  color: #ffffff !important;
+  text-align: center;
+  border: none !important;
+  text-transform: none !important;
+}
+.crossimg {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  float: right;
+}
+
+.crossimg:hover {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7500%)
+    hue-rotate(18deg) brightness(115%) contrast(115%);
+}
+
+.cancelbtn {
+  text-align: center;
+  width: 100% !important;
+  margin-top: 20px !important;
+  border-radius: 25px !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  border: 1px solid #e6e8ec !important;
+  text-transform: none !important;
+}
+.cancelbtn:hover {
+  color: #ffffff !important;
+  background-color: #3772ff !important;
+  border: 1px solid #3772ff !important;
+}
+.displayflex {
+  display: flex !important;
+}
+
+.para1 {
+  margin: 10px !important;
+  font-weight: bold !important;
+}
+.buttonBox {
+  text-align: center;
+}
+
+.modal4 {
+  text-align: center;
+}
+
+.cancelbtnbox {
+  display: flex;
+  justify-content: center;
+  text-align: center !important;
+}
+.modalhead {
+  font-size: 32px !important;
+  opacity: 1;
+  font-weight: unset !important;
+}
+.subtext {
+  font-size: 12px !important;
+}
+.subhead {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}

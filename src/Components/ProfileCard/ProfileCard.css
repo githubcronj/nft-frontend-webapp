@@ -1,0 +1,43 @@
+.profileWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: max-content;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  padding: 3px 10px 0px 3px;
+  cursor: pointer;
+}
+.profileWrapper:hover {
+  border: 2px solid #3772ff;
+}
+.ETHCount {
+  color: #23262f;
+  font-size: 15px !important;
+  font-weight: bolder !important;
+}
+.ETHCountDark {
+  color: #fff;
+  font-size: 15px !important;
+  font-weight: bolder !important;
+}
+.greenETH {
+  color: #45b26b;
+  font-size: 15px !important;
+}
+
+.profileImg {
+  margin-right: 15px !important;
+  width: 30px;
+}
+@media (max-width:600px ) and (min-width:300px){
+  .profileWrapper {
+    border: none;
+  }
+  .profileImg {
+    margin-right: 0px !important;
+  }
+  .profileWrapper:hover {
+    border: none;
+  }
+}

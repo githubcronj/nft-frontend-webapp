@@ -1,0 +1,248 @@
+
+.buttonStlye {
+  margin: 5px 10px;
+  padding: 4px 12px;
+}
+.button_div {
+  padding-right: 80px;
+  margin-bottom: 20px;
+}
+.userFollower {
+  display: flex;
+}
+.paper_height{
+  height: 350px;
+}
+.linkUnderline {
+  text-decoration: none;
+}
+.usercardGrid_Styling {
+  display: flex;
+  justify-content: end;
+  width: 30%;
+  margin-top: -60px;
+  padding-right: 30px;
+}
+.navpill_Styling {
+  margin-top: 30px;
+  width: 70%;
+  display: flex;
+}
+.tabs_Styling {
+  margin-left: 35px;
+}
+
+.tabTopGrid_Styling .css-16s6g47-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fff !important;
+  background-color: #353945 !important;
+  border-radius: 20px;
+  height: 40px !important;
+}
+
+.tabTopGrid_Styling .css-1aquho2-MuiTabs-indicator {
+  background: none !important;
+}
+.tabTopGrid_Styling .css-16s6g47-MuiButtonBase-root-MuiTab-root {
+  min-height: 40px !important;
+}
+.savePhoto_btn{
+  padding: 13px 15px;
+}
+.SavePhotoBtn_grid{
+  display: flex !important;
+    justify-content:flex-end !important;
+    align-items: flex-end !important;
+    padding-right: 20px;
+    
+}
+.dashedBorderGrid{
+  border: 2px dashed #fff;
+  border-radius: 16px;
+  height: 330px;
+}
+.upload_Grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  text-align: center;
+}
+.DragAndDropText{
+  font-size: 28px !important;
+    line-height: 1.33333;
+    font-weight: 700 !important;
+    color: #fff;
+}
+.Browsetext{
+  font-size: 18px !important;
+    line-height: 1.33333;
+    font-weight: 600 !important;
+    color: #fff;
+}
+.tabPanelSection2-Style{
+  margin-left: -30px ;
+}
+.tabPanelSection-Style{
+  margin-left: -50px ;
+}
+.Upload_Icon_style{
+  width: 38px;
+}
+@media (min-width:1980px){
+  .outerGrid_style{
+    width: 60% !important;
+    margin: auto !important;
+  }
+  .button_div {
+    padding-right: 28%;
+  }
+  .tabPanelSection-Style{
+    margin-left: -30px ;
+  }
+}
+@media (min-width:1760px) and (max-width:1979px){
+  .outerGrid_style{
+    width: 68% !important;
+    margin: auto !important;
+  }
+  .button_div {
+    padding-right: 20%;
+  }
+  .tabPanelSection-Style{
+    margin-left: 0px ;
+  }
+}
+@media (max-width:1759px) and (min-width:1550px){
+  .outerGrid_style{
+    width: 78% !important;
+    margin: auto !important;
+  }
+  .button_div {
+    padding-right: 15%;
+  }
+  .tabPanelSection-Style{
+    margin-left: 0px ;
+  }
+}
+@media (min-width:1478px) and (max-width:1550px){
+  .tabPanelSection-Style{
+    margin-left: -20px ;
+  }
+}
+@media (max-width: 1150px) {
+  .usercardGrid_Styling{
+    padding-right: 0px;
+  }
+  .tabPanelSection-Style{
+    margin-left: -10px ;
+  }
+}
+@media (max-width: 1024px){
+  .tabPanelSection-Style{
+    margin-left: -40px ;
+  }
+}
+@media (max-width: 1020px) {
+.SavePhotoBtn_grid{
+margin-top: -65px;
+  }
+  .paper_height{
+    height: 260px;
+  }
+  .dashedBorderGrid{
+    height: 240px;
+  }
+  .button_div {
+    margin-bottom: 80px;
+  }
+  .usercardGrid_Styling {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .userFollower {
+    display: block;
+  }
+  .navpill_Styling {
+    width: 60%;
+    display: flex;
+    margin-left: 40px;
+  }
+  .tabPanelSection-Style{
+    margin-left: 30px ;
+  }
+  .tabPanelSection2-Style{
+    width: 97%;
+    margin-left: -40px;
+  }
+  .Upload_Icon_style{
+    width: 32px;
+  }
+}
+@media (max-width: 700px) {
+  .upload_Grid{
+    height: 60%;
+    
+  }
+  .Upload_Icon_style{
+    width: 24px;
+  }
+  .DragAndDropText{
+    font-size: 18px !important;
+  }
+  .Browsetext{
+    font-size: 14px !important;
+    margin-bottom: 15px !important;
+    font-weight: 500 !important;
+  }
+  .SavePhotoBtn_grid{
+    margin-top: -20px;
+    justify-content: center !important;
+      }
+  .tabs_Styling {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .tabPanelSection-Style{
+    margin-left: 0px;
+  }
+  .tabPanelSection2-Style{
+    width: 94%;
+    margin-left: -70px;
+  }
+  .tabTopGrid_Styling{
+    width:100%;
+  }
+  .navpill_Styling {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .tabs_Styling {
+    width: 100%;
+  }
+  .tabPanelSection-Style{
+    margin-left: 0px;
+  }
+  .button_div {
+    margin-bottom: 80px;
+    padding-right: 40px;
+  }
+  
+}
+@media (max-width: 330px) {
+  .button_div {
+    margin-bottom: 80px;
+    padding-right: 16px;
+  }
+  .css-19kzrtu {
+    padding:10px 0px !important;
+  }
+  .tabPanelSection2-Style{
+    width: 94%;
+    margin-left: -55px;
+  }
+}

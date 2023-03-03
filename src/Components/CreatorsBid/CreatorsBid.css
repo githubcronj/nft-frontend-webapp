@@ -1,0 +1,133 @@
+.changeM {
+  margin: 10px 0px !important;
+}
+.changeSize {
+  width: 100% !important;
+}
+.moveRight {
+  margin-right: 15px !important;
+}
+.borderC {
+  border-radius: 33px;
+  padding: 12px 17px !important;
+}
+.styleETH {
+  border: 1px solid green;
+  color: green;
+  border-radius: 6px;
+  font-size: 11px !important;
+  font-weight: bolder !important;
+  text-align: center;
+  width: 63px !important;
+  padding-top: 3px;
+}
+.widthmax {
+  width: 100% !important;
+  height: 123px !important;
+  padding: 10px 0px;
+}
+.StyleDis {
+  border-radius: 27px;
+  padding: 16px 42px !important;
+  margin-top: 20px;
+}
+.priceBor {
+  border: 1px solid green;
+  color: green;
+  padding: 3px 5px;
+  font-weight: bold !important;
+  border-radius: 5px;
+  text-align: center;
+}
+.styleFuture {
+  font-weight: bolder !important;
+}
+.fontC5 {
+  color: #777e90;
+  font-size: 13px !important;
+  font-weight: bolder !important;
+}
+.firstSection {
+  text-decoration: none !important;
+  color: black !important;
+}
+.lineUnderlineS2 {
+  text-decoration: none !important;
+  color: black !important;
+}
+.conatiner {
+  width: fit-content;
+  position: relative;
+  height: fit-content;
+}
+.middle {
+  display: none;
+}
+.zoomDiv {
+  overflow: hidden;
+}
+.zoomDiv:hover .image {
+  transform: scale(1.3);
+  opacity: 0.9;
+}
+.image {
+  transition: transform 0.7s;
+  width: 100% !important;
+}
+
+.container:hover .middle {
+  display: inline;
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .priceBor {
+    padding: 1px 3px;
+    font-size: 11px !important;
+  }
+  .image {
+    width: 100% !important;
+  }
+  .container {
+    margin-top: 30px !important;
+  }
+}
+@media (max-width: 768px) {
+  .styleCreators {
+    font-weight: bolder !important;
+    font-size: 12px !important;
+  }
+  .styleBird {
+    margin-left: 20px !important ;
+  }
+  .changeSize {
+    margin: 30px 0px !important;
+  }
+  .changeWidth1 {
+    width: 100%;
+  }
+  .styleHidden {
+    display: none;
+  }
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+    overflow: scroll;
+  }
+  .flexTitle {
+    width: 110px;
+  }
+  .container {
+    width: 96% !important;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 500px) and (min-width: 300px) {
+  .latestStyle {
+    margin-top: 30px !important;
+  }
+  .styleFuture {
+    font-size: 13px !important;
+  }
+}

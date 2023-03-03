@@ -1,0 +1,77 @@
+.styleHead {
+  font-size: 48px !important;
+  margin: 50px 0px 20px 0px !important;
+  font-weight: bolder !important;
+}
+.marginC1 {
+  margin-right: 20px !important;
+}
+.maxWidth {
+  width: 97%;
+}
+.fontC1 {
+  margin-left: 30px !important;
+  font-size: 20px !important;
+  font-weight: bolder !important;
+}
+.imgC1 {
+  height: 400px;
+}
+.walletStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+  cursor: pointer;
+}
+.borderC1 {
+  border: 1px solid #000;
+}
+.fontC2 {
+  font-size: 40px !important;
+}
+.fontC3 {
+  font-size: 12px !important;
+  color: #777e90;
+  margin-bottom: 20px !important;
+}
+.changeWallet1 {
+  padding: 10px 20px !important;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.colorB {
+  color: #000;
+}
+.changeWallet {
+  padding: 10px 20px !important;
+  border-radius: 25px;
+}
+.changeDo {
+  padding: 18px 20px !important;
+  border-radius: 25px;
+}
+@media (max-width: 500px) and (min-width: 300px) {
+  .imgC1 {
+    padding: 0px 4px;
+    align-items: center !important;
+  }
+  .padding300{
+    padding:0px 7px;
+  }
+  .fontC2 {
+    font-size: 34px !important;
+  }
+  .styleHead {
+    font-size: 33px !important;
+  }
+  .walletStyle {
+    padding: 20px 10px;
+  }
+}
+@media (max-width:320px) {
+  .styleHead {
+    font-size: 26px !important;
+  }
+}

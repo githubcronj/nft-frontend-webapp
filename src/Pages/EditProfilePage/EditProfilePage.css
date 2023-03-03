@@ -1,0 +1,203 @@
+.headContainer {
+  padding: 20px;
+}
+.profileLink {
+  text-decoration: none;
+  color: #777e90;
+}
+.profileLink:hover {
+  color: #3772ff;
+}
+.idtextfield {
+  position: relative;
+  height: 55px;
+  padding: 0 14px;
+  width: 95%;
+  border-radius: 14px;
+  border: 1.5px solid #c7c9ce;
+}
+.idtextfield:hover {
+  border: 1.5px solid #23262f;
+}
+.twitterInput {
+  height: 98%;
+  border: none;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  width: 60%;
+  outline: none !important;
+}
+.linkUnderline {
+  text-decoration: none;
+}
+.verifyButton {
+  width: 37%;
+  margin-top: -3px !important;
+}
+
+.updateBtnClass {
+  display: flex;
+}
+.clearBtn:hover {
+  color: #3772ff;
+}
+.updateBtn:hover {
+  color: #fff;
+  background-color: #3772ff !important;
+}
+.verifyButton:hover {
+  color: #fff;
+  background-color: #3772ff !important;
+}
+.AddMoreButton:hover {
+  color: #fff;
+  background-color: #3772ff !important;
+}
+.backToProfileBtn {
+  text-transform: none !important;
+  border-radius: 24px !important;
+  color: #23262f !important;
+  border: 2px solid #e6e8ec !important;
+  padding: 5px 20px !important;
+  font-size: 14px !important;
+}
+.backToProfileBtn:hover {
+  color: #fff !important;
+  background-color: #3772ff !important;
+}
+.EditPageHeading {
+  text-align: left;
+  letter-spacing: -0.96px;
+  color: #23262f;
+  opacity: 1;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.EditPagepara {
+  color: #5a5d66;
+  font-size: 14px;
+}
+.headDiv {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+.profilePicstyle {
+  width: 140px !important;
+  height: 140px !important;
+  margin-right: 20px;
+}
+.ProfileGrid {
+  display: flex;
+  width: 50%;
+  padding-right: 40px;
+}
+.AccountInfoStyle {
+  width: 50%;
+  padding-left: 20px;
+}
+.profilespan {
+  display: flex;
+  justify-content: end;
+  margin-top: -20px;
+  margin-right: 60px;
+}
+.labelStyling {
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b1b5c3;
+}
+.EditPageContent {
+  display: flex;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 15px !important ;
+}
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 15px !important;
+}
+
+.width_in_formControl{
+  margin-bottom: 40px;
+}
+
+.textField_styling{
+  width: 95%;
+   border-radius: 20px !important;
+   margin-top: 0px !important;
+}
+@media (max-width: 1160px) {
+  .EditPageContent {
+    display: block;
+  }
+  .ProfileGrid {
+    width: 100%;
+  }
+  .tst{
+    display: flex;
+    }
+    .AccountInfoStyle {
+      width: 100%;
+      padding-left: 20px;
+      display: flex;
+    }
+    .width_in_formControl{
+      width:50%;
+    }
+}
+@media (max-width: 820px) {
+  .headDiv {
+    width: 92%;
+  }
+  }
+
+  @media (max-width: 700px) {
+    .headDiv {
+      width: 85%;
+    }
+    .tst{
+      display: block;
+      }
+      .width_in_formControl{
+        width:100%;
+      }
+      .profilePicstyle {
+        width: 80px !important;
+        height: 80px !important;
+        margin-right: 20px;
+        margin-top: 20px;
+      }
+      .profilespan {
+        display: none;
+      }
+    }
+
+
+    @media (max-width: 400px) {
+      .css-qlne83-MuiButtonBase-root-MuiButton-root{
+        padding:3px !important;
+      }
+      .idtextfield{
+        padding:6px;
+        width: 100%;
+      }
+      .textField_styling{
+        width: 100%;
+      }
+      .profilePicstyle{
+        width: 60px !important;
+        height: 60px !important;
+        margin-right: 15px;
+        margin-top: 25px;
+      }
+
+    }
+    @media (max-width: 320px) {
+      .idtextfield{
+        padding:1px !important;
+      }
+    }

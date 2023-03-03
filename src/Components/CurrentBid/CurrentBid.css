@@ -1,0 +1,52 @@
+.headOne {
+  font-size: 12px;
+  color: #777e90;
+  font-weight: bolder !important;
+  margin-bottom: 10px !important;
+}
+.headText {
+  margin-bottom: 20px !important;
+}
+.headButton {
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  width: fit-content !important;
+  margin-bottom: 15px;
+}
+.profileWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.grayText {
+  color: #777e90;
+  font-size: 12px !important;
+}
+.profileName {
+  color: #23262f;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .carouselWrapper .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    display: none !important;
+  }
+}
+.ButtonClass {
+  width: 90% !important;
+  margin: 10px 0px;
+  padding: 12px 5px;
+  font-size: 16px;
+  margin-left: 12px !important;
+}
+.ButtonClass1 {
+  width: 90% !important;
+  border-radius: 20px !important;
+  margin: 0px;
+  padding: 12px 5px;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 12px !important;
+}

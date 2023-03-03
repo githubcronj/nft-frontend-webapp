@@ -1,0 +1,92 @@
+/* NEW DISCOVER */
+
+.ItemWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.ItemWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.discoverDropdown {
+  width: 250px;
+}
+.discoverDropdownBelow {
+  width: 250px;
+}
+.displayInTab {
+  display: none;
+}
+.filterButton {
+  border-radius: 24px !important;
+}
+.filterIcon {
+  margin-left: 5px !important;
+}
+@media (max-width: 1024px) {
+  .discoverDropdown {
+    width: 225px;
+  }
+}
+@media (max-width: 768px) {
+  .discoverDropdown {
+    width: 250px;
+  }
+  .discoverDropdownBelow {
+    width: 330px;
+  }
+  .displayInTab {
+    display: block;
+  }
+  .hideInTab {
+    display: none;
+  }
+  .ItemWrapper {
+    justify-content: space-around;
+  }
+  .filterButton {
+    height: 42px;
+  }
+}
+@media (max-width: 700px) {
+  .css-1oqqzyl-MuiContainer-root {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .discoverDropdown,
+  .filterButton,
+  .discoverDropdownBelow {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .filterBox {
+    width: 99%;
+    text-align: center;
+  }
+  .filterButton {
+    height: 45px;
+    font-size: 20px;
+  }
+  .ItemWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .ItemWrapper1 {
+    width: max-content !important;
+  }
+  .bidcardDiv .css-19kzrtu {
+    overflow: scroll !important;
+  }
+  .ItemWrapper1 .withMargin {
+    width: max-content !important;
+    background-color: #fff !important;
+  }
+}

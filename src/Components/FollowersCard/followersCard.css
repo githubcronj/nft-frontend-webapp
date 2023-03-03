@@ -1,0 +1,153 @@
+.rootStyle {
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 40px -12px rgba(0, 0, 0, 0.05);
+  max-width: 750px;
+}
+.profile_img{
+width: 88px !important;
+height: 88px !important;
+margin: 14px 20px !important;
+}
+
+.followersCard_media {
+  display: flex;
+}
+.followersCardTopBlock {
+  display: flex;
+  padding: 7px;
+  border-bottom: 1.5px solid rgba(236, 232, 232, 0.5);
+}
+.coverImgStyle {
+  display: flex;
+  flex-direction: row !important;
+  margin-left: 60px;
+}
+.profileStyle {
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+}
+.imgStyle {
+  width: 112px;
+  height: 88px;
+  margin: 5px;
+}
+@media (max-width: 1300px) and (min-width: 1150px) {
+  .coverImgStyle {
+    overflow-x: auto;
+    margin-left: 30px;
+  }
+  .followersCardImg_style {
+    width: 60%;
+  }
+}
+@media (max-width: 1150px) and (min-width: 1020px) {
+  .coverImgStyle {
+    overflow-x: auto;
+    margin-left: 10px;
+  }
+  .followersCardImg_style {
+    width: 60%;
+  }
+  .rootStyle {
+    max-width: 650px;
+  }
+}
+@media (max-width: 1020px) and (min-width: 900px) {
+  .coverImgStyle {
+    overflow-x: auto;
+    margin-left: 10px;
+  }
+  .followersCardImg_style {
+    width: 85%;
+  }
+  .rootStyle {
+    max-width: 650px;
+  }
+}
+@media (max-width: 899px) and (min-width: 769px) {
+  .coverImgStyle {
+    overflow-x: auto;
+    margin-left: 20px;
+  }
+  .followersCardImg_style {
+    width: 70%;
+  }
+  .rootStyle {
+    max-width: 650px;
+  }
+}
+@media (max-width: 768px){
+  .coverImgStyle {
+    overflow-x: auto;
+    margin-left: 20px;
+  }
+  .followersCardImg_style {
+    width: 70%;
+  }
+  .rootStyle {
+    max-width: 650px;
+  }
+}
+@media (max-width: 760px) {
+  .profile_img{
+    width: 74px !important;
+    height: 74px !important;
+    margin: 14px 25px !important;
+    }
+  .coverImgStyle {
+    margin-left: 20px;
+  }
+  .imgStyle {
+    display: none;
+  }
+  .profileStyle {
+    display: flex;
+    width: 60%;
+  }
+  .buttonin768 {
+    width: 300px;
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+  }
+  .nameStyling {
+    width: 150px;
+    align-items: center;
+    padding-top: 25px;
+    margin-left: -23px;
+  }
+}
+@media (max-width: 700px) {
+  .rootStyle {
+    width: 300px;
+  }
+  .profileStyle {
+    width: 60%;
+  }
+  .buttonin768 {
+    width: 110px;
+  }
+}
+@media (max-width: 400px){
+  
+  .nameStyling {
+    width: 150px;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: -55px;
+  }
+  .buttonin768 {
+    width: 90px;
+  }
+}
+@media (max-width: 350px){
+  
+  .buttonin768 {
+    width: 60px;
+  }
+  .profile_img{
+    margin: 14px 30px !important;
+  }
+}
